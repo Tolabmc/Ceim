@@ -31,5 +31,21 @@ In the end we landed on the project described in the section below.
 
 === Chosen Project
 
+Our project will evolve a policy model that is capable of playing the Irish
+card game 25. 25 is a game focusing on chance and decision making. There are
+many instances where a player may choose to play a worse card, losing in the
+short term but potentially winning in the long term. The game also has a
+rule set that is easily describable using code, and an inherent fitness
+function due to the nature of its scoring system. These factors make it an
+ideal problem to tackle using genetic programming.
+
+By training a model to play the game, we hope to:
+
+- Create a computer-controlled player that can be played against using some
+  sort of UI.
+- Create a human-decipherable decision tree that can be used to inform the
+  creation of an optimal game strategy.
+
+
 == Week 2
 
